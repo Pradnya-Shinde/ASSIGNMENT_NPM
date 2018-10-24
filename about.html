@@ -14,7 +14,7 @@
     <title>Creative - Technical World</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://blackrockdigital.github.io/startbootstrap-creative/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom fonts for this template -->
     <link href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" rel="stylesheet" type="text/css">
@@ -28,11 +28,34 @@
 
 
     <style>
+
+       .footerclass
+        {
+          margin-right: 400px;
+        margin-top: 600px;
+        }
+
+   
+   .label
+      {
+        color: chartreuse;
+        margin-left: 5px;
+
+      }
+
+        .left
+       {
+         margin-top: 30px;
+         margin-left: -6px;
+         text-align: start;
+       }
+
         .formclass {
             border: 1px solid coral;
             padding: 8px;
             margin-top: 100px;
-            margin-right:30px;
+            margin-left:400px;
+            /* margin-right:1px; */
             height: 500px;
             width:600px;
             color:whitesmoke;
@@ -71,31 +94,45 @@
     
 
   <body id="page-top" >
+    
 
     <!-- Navigation -->
     <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
-            <div class="container">
-              <a class="navbar-brand js-scroll-trigger" href="#page-top">Explore </a>
-              <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="navbar-nav ml-auto">
-                  <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger" href="#about">About</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger" href="#services">Services</a>
-                  </li>
-                 
-                  <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </nav>
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top left" id="mainNav" >
+        <div class="container left" >
+          <a class="navbar-brand js-scroll-trigger" href="#page-top"></a>
+          <!-- <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span> 
+          </button>-->
+          <div class="collapse navbar-collapse  left" id="navbarResponsive">
+            
+            <ul class="navbar-nav ml-left">
+              <li class="nav-item " >
+                 <label class="label"><u>Menu Bar</u>  </label>  
+                 <a class="nav-link js-scroll-trigger"  href="Index.html"  >Home</a>   
+
+  
+                <a class="nav-link js-scroll-trigger"  href="about.html"  >About</a>   
+              
+                <a class="nav-link js-scroll-trigger" href="services.html">Services</a>
+            
+                  <a class="nav-link js-scroll-trigger" href="contact.html">Contact</a>
+  
+                  <a class="nav-link js-scroll-trigger" href="">Blog</a>
+  
+                  <a class="nav-link js-scroll-trigger" href="">Feedbacks</a>
+  
+                  <a class="nav-link js-scroll-trigger" href="">Clients</a>
+  
+  
+                
+                </li>
+            </ul>
+          </div>
+        </div>
+       
+    
+      </nav> 
       
           <header class="masthead text-center text-white d-flex">
             <div class="container my-auto">
@@ -170,7 +207,7 @@
               </div>
     </section>
 
-   
+   <label class="footerclass"> Contact information: <a href="mailto:someone@example.com">someone@example.com</a></label>
 
     <!-- Bootstrap core JavaScript -->
     <script src="https://blackrockdigital.github.io/startbootstrap-creative/vendor/jquery/jquery.min.js"></script>
@@ -183,6 +220,8 @@
 
     <!-- Custom scripts for this template -->
     <script src="https://blackrockdigital.github.io/startbootstrap-creative/js/creative.min.js"></script>
+
+    
 
   </body>
 
